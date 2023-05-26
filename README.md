@@ -7,6 +7,18 @@ MUI本家にあった Vite+React(TypeScript) の examplesをやってみる。
 - [Example projects - Material UI](https://mui.com/material-ui/getting-started/example-projects/)
 - [material-ui/examples/material-vite-ts at master · mui/material-ui · GitHub](https://github.com/mui/material-ui/tree/master/examples/material-vite-ts)
 
+## 変更点
+
+- pnpmでやった。
+- .tsx を再フォーマットした.
+- @vitejs/plugin-react-swc にした。
+- "moduleResolution" を "bundler" にした。
+- pnpm lint できるようにした。
+
+## メモ
+
+package.jsonで、モジュールのバージョンが全部 "latest"
+
 以下オリジナルのREADME.
 
 <hr>
